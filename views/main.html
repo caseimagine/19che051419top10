@@ -16,7 +16,7 @@
                 </div>
 
                 <form name="userForm" ng-submit="submitForm(userForm.$valid, email, password)" novalidate>
-                  <div class="language-select text-center bg-primary" ng-controller="LanguageselectCtrl" ng-if="grupo.temMultilingua"
+                  <div class="language-select text-center bg-primary" ng-controller="LanguageselectCtrl" ng-if="Utils.keys(grupo.multilingua.linguas).length > 1"
                     style="padding-top: 20px; padding-bottom: 20px; color: white;">
 
                     <ul class="list-inline" style="margin-bottom: 0;">
@@ -62,14 +62,12 @@
                           <small>Esqueci minha senha</small>
                         </a></p> 
                         <hr />
-
-
                       </div>
                       <div class="col-xs-12">
                         <!-- <div ng-include="'/views/footer.html'"></div> -->
                         <div class="alert alert-primary text-center" role="alert" style="margin-bottom: 0;">
                           <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Em caso de
-                            dúvidas, entre em contato pelo telefone {{grupo.telefone}} ou pelo
+                            dúvidas, entre em contato <span ng-if="grupo.telefone !== null">pelo telefone {{grupo.telefone}} ou</span> pelo
                             e-mail <a href="mailto:{{grupo.email}}">{{grupo.email}}</a>.</p>
                         </div>
                         <br>

@@ -71,8 +71,7 @@ background-position: center bottom;">
 <div class="footer">
     <div ng-include="'/views/footer.html'"></div>
     <div class="container">
-        <div class="language-select text-center" ng-controller="LanguageselectCtrl" ng-if="temMultilingua">
-
+        <div class="language-select text-center" ng-controller="LanguageselectCtrl" ng-if="Utils.keys(grupo.multilingua.linguas).length > 1">
             <ul class="list-inline" style="margin-bottom: 0;">
                 <li><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></li>
                 <li ng-repeat="(key, value) in localesNamesWithKeys">
