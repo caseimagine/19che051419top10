@@ -1,10 +1,11 @@
 <h2 translate="Perfil"></h2>
 
-<p>{{titular.Nome}},
-    <span translate>seja bem-vindo(a)!</span>
+<p><span translate>Profile.WelcomeBeforeName</span>
+    {{titular.Nome}}
+    <span translate>Profile.WelcomeAfterName</span>
 </p>
 
-<p>O prazo limite é dia {{grupo.deadlineInscricao}}.</p>
+<p><span translate>Profile.DeadlineMessage</span> {{grupo.deadlineInscricao}}.</p>
 
 <p><span translate="Profile.MandatoryFields"></span></p>
 
@@ -86,12 +87,12 @@
         <div class="alert-icon">
             <i class="material-icons">error_outline</i>
         </div>
-        Para prosseguir preencha o(s) campo(s) 
+        {{ 'Profile.ValidationMessage' | translate }}
         <ul>
             <li ng-repeat="erros in userForm track by erros.$name" ng-if="erros.$error | objLength"><span translate="{{erros.$name | inputErrorLabel}}"></span></li>
         </ul>
         <br>
-        Campos com erro se encontram marcados com um X
+        {{ 'Profile.ValidationInfo' | translate }}
     </div>
     <button type="submit" class="btn btn-primary" ng-disabled="submitting || userForm.$invalid" ng-show="canSubmit()"><span
             translate>Enviar</span></button>

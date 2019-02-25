@@ -132,7 +132,9 @@
         "Registration":{
             "Companion.Taking": "Irá levar acompanhante?",
             "Companion.Relatedness": "Grau de parentesco com o titular"
-        }
+        },
+        "ValidationMesage": "Para prosseguir preencha o(s) campo(s)",
+        "ValidationInfo": "Campos com erro se encontram marcados com um X"
     },
 
     "Para que possamos garantir o melhor serviço, pedimos que preencha os dados abaixo até": "",
