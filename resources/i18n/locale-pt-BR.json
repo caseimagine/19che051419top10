@@ -130,7 +130,7 @@
         "DeadlineMessage": "Para que possamos garantir o melhor serviço, pedimos que preencha os dados abaixo até",
         "MandatoryFields": "Campos marcados com * são de preenchimento obrigatório.",
         "Registration":{
-            "Companion.Taking": "Irá levar acompanhante",
+            "Companion.Taking": "Irá levar acompanhante?",
             "Companion.Relatedness": "Grau de parentesco com o titular"
         }
     },
@@ -167,7 +167,8 @@
     "Nome do contato de emergência": "Nome do contato de emergência",
     "Telefone do contato de emergência": "Telefone do contato de emergência",
     "Celular do contato de emergência": "Celular do contato de emergência",
-    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, entre em contato <u><a href='mailto:{{footeremail}}'>conosco</a></u> pelo telefone {{footertelefone}}",
+    
+    "Em caso de dúvidas entre em contato com": "Em caso de dúvidas, entre em contato pelo telefone {{telefone}} ou pelo e-mail <a href='mailto:{{email}}'>{{email}}</a>.",
     "Insira seu e-mail": "Insira seu e-mail",
     "Insira um e-mail válido": "Insira um e-mail válido",
 

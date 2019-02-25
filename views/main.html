@@ -66,9 +66,10 @@
                       <div class="col-xs-12">
                         <!-- <div ng-include="'/views/footer.html'"></div> -->
                         <div class="alert alert-primary text-center" role="alert" style="margin-bottom: 0;">
-                          <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Em caso de
+                          <!-- <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Em caso de
                             dúvidas, entre em contato <span ng-if="grupo.telefone !== null">pelo telefone {{grupo.telefone}} ou</span> pelo
-                            e-mail <a href="mailto:{{grupo.email}}">{{grupo.email}}</a>.</p>
+                            e-mail <a href="mailto:{{grupo.email}}">{{grupo.email}}</a>.</p> -->
+                            <p><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;<span translate translate-values='{ email: grupo.email, telefone: grupo.telefone}'>Em caso de dúvidas entre em contato com</span></p>
                         </div>
                         <br>
                       </div>
