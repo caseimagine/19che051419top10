@@ -5,6 +5,7 @@
     "views.login.Esqueci minha senha": "Forgot password",
     "views.login.Esse não é um e-mail válido": "Please type a valid email address",
     "Mensagem de aviso de deadline": "Inscripciones cerradas",
+    "Mensagem de sessão expirada": "Sesión terminada",
 
     "controller.esqueciASenha.Por favor, cheque seu e-mail para continuar": "Please check your inbox",
 

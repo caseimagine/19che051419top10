@@ -5,6 +5,8 @@
     "views.login.Esqueci minha senha": "Esqueci minha senha",
     "views.login.Esse não é um e-mail válido": "Esse não é um e-mail válido",
     "Mensagem de aviso de deadline": "Inscrições encerradas",
+    "Mensagem de sessão expirada": "Sessão expirada",
+    
     "controller.esqueciASenha.Por favor, cheque seu e-mail para continuar": "Por favor verifique o seu e-mail",
     "controller.login.Usuário já está cadastrado em nosso aplicativo": "Usuário já está cadastrado em nosso aplicativo",
     "controller.login.A senha deve ter no mínimo 6 caracteres": "A senha deve ter no mínimo 6 caracteres",

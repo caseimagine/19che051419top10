@@ -5,6 +5,7 @@
     "views.login.Esqueci minha senha": "Forgot password",
     "views.login.Esse não é um e-mail válido": "Please type a valid email address",
     "Mensagem de aviso de deadline": "Subscriptions closed",
+    "Mensagem de sessão expirada": "Session expired",
 
     "Sim": "Yes",
     "Não": "No",
